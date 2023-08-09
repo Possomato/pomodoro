@@ -1,0 +1,76 @@
+:root{
+  --cor-background: #212121;
+  --cor-background-botoes: #4c167292;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.escondido{
+  display: none;
+}
+
+main{
+  background-color: var(--cor-background);
+
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+}
+
+.temporizador{
+  width: 100%;
+  height: 20%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 6rem;
+}
+
+.containerBotoes{
+  background-color: var(--cor-background-botoes);
+
+  width: 100%;
+  height: 30%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  padding: .5rem 1rem;
+  border-radius: 50rem;
+}
+
+button{
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+svg{
+  background-color: transparent;
+}
+
+footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 1rem;
+}
